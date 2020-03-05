@@ -56,3 +56,7 @@ You will be assessed on the following criteria:
   - It should be unique and interesting, with images, formatting, fonts, etc. Try not to spend more than 2-3 hours writing and styling it. To start, just use any content to get up and running quickly.
 - *What article should load when we get to the bottom of the page? (Deliverable C)*
   - You will just reload the same content with a new heading.
+- *Can I combine two parts into one component?*
+  - Absolutely
+- *Does this have to be responsive to small screens (mobile)?*
+  - Ideally. The more responsive, the better the grade.
