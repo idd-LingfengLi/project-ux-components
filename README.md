@@ -1,4 +1,4 @@
-# PROJECT: UI/UX COMPONENTS FOR AN ARTICLE
+# PROJECT: UI/UX TOOLING (FOR AN ARTICLE)
 
 Design and develop drop-in components or tool that can be used to augment the standard UI and improve the overall experience of a user. 
 
