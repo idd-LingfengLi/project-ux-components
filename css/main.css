@@ -1,0 +1,197 @@
+html {
+    color: #000;
+    background: #FFF;
+    font-size: 625%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+section,
+img,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+body {
+    font-size: 0.14rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #494949;
+}
+
+a {
+    text-decoration: none;
+}
+.wrap{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+
+header section{
+    display: flex;
+    align-items: center;
+    background: #f8ee06;
+    height: 125px;
+}
+.logo{
+    display: block;
+    text-align: center;
+    width: 330px;
+}
+.title{
+    font-size: 76px;
+    text-transform:uppercase;
+    color: #0076bb;
+}
+
+
+main {
+    display: flex;
+}
+main .left{
+    width: 330px;
+}
+main .left li{
+    width: 330px;;
+    padding: 16px 0;
+    font-size: 84px;
+    font-family: "Arial Black";
+    color: #5e5e5e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .left li.cur{
+    background: #20b14c;
+    color: #f8ee06;
+}
+main .left li a{
+    display: block;
+    text-align: center;
+    height: 140px;
+    width: 140px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+main .left li.cur a{
+    border: 8px solid #f8ee06;
+    border-radius: 140px;
+}
+main .right{
+    height: 516px;
+    overflow: hidden;
+    padding: 20px 45px;
+}
+main .right p{
+    font-size: 20px;
+    line-height: 24px;
+}
+footer,footer a{
+    color: #fdee00;
+    font-size: 20px;
+}
+footer section{
+    display: flex;
+    align-items: center;
+    background: #0076bb;
+    height: 125px;
+    
+}
+footer .left{
+    text-align: center;
+    width: 330px;
+}
+footer .middle{
+    padding: 0 165px;
+    
+}
+footer .middle h4{
+    font-size: 20px;
+    line-height: 50px;
+}
+footer  p{
+    font-size: 15px;
+    line-height: 34px;
+}
+footer .right{
+    width: 490px;
+    text-align: center;
+}
