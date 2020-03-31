@@ -155,12 +155,16 @@ main .left li.cur a{
     border: 8px solid #f8ee06;
     border-radius: 140px;
 }
-main .right{
+main .content{
+    display: none;
     height: 516px;
-    overflow: hidden;
+    overflow-y: scroll;
     padding: 20px 45px;
 }
-main .right p{
+main .content.cur{
+    display: block;
+}
+main .content p{
     font-size: 20px;
     line-height: 24px;
 }
